@@ -1,0 +1,30 @@
+#contenedor{
+    width: 779px;
+    background-color: black;
+    margin: auto;
+}
+#cabecera{
+    height: 80px;
+    background-color: rgb(160, 42, 42);
+}
+#banner{
+    height: 150px;
+    text-align: right;
+}
+#contenido{
+    height: 340px;
+    margin-top: 20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    color: white;
+}
+#piepagina{
+    height: 60px;
+    font-size: small;
+    text-align: center;
+    background-color: rgb(160, 42, 42);
+    color: white;
+
+}
