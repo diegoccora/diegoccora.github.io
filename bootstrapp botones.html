@@ -10,6 +10,16 @@
 <body id="cuerpoPagina">
 
     <div class="container">
+
+
+        <div>
+            <button onclick="prender()" class="btn btn-primary">Prender</button>
+            <button onclick="apagar()" class="btn btn-danger">Apagar</button>
+
+            <img id="foco" src="imagen/foco apagado.jpg" alt="Esto es un foco" width="300px" height="300px">
+        </div>
+
+
         <!--Inicio-->
         <div class="row">
             <button id="btnFClaro" onclick="cambiarFondo('claro')" class="btn btn-default">
@@ -73,6 +83,21 @@
 
 
 <script>
+
+
+    function apagar(){
+
+        let foco = document.getElementById("foco");
+        foco.setAttribute("src", "imagen/foco apagado.jpg")
+        //alert(foco.getAttribute("src"));
+       
+    }
+
+    function prender(){
+        let foco = document.getElementById("foco");
+        foco.setAttribute("src", "imagen/foco prendido.jpg")
+    }
+
 
 
     function cambiarFondo(fondo){
